@@ -18,7 +18,6 @@ Gitにはレポジトリに含まれている過去のコミットツリーと�
 
 ```
 $ git checkout <戻したいファイル名>
-Updated 1 path from the index
 ```
 
 コマンドの結果を見るとわかるが`checkout`はインデックスの状態に戻すため、`add`してしまっている状態だと戻すことができない。そのときは一度`reset`で`add`をキャンセルして`checkout`を実行すれば良い。
